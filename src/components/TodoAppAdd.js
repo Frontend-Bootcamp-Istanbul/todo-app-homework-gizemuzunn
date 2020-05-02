@@ -24,6 +24,7 @@ class TodoAppAdd extends Component{
                     <input
                         type="text"
                         placeholder="Todo Giriniz"
+        
                         value={this.state.value}
                         onChange={(e) => {
                             this.setState({

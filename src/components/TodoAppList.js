@@ -2,6 +2,8 @@ import React from 'react';
 import TodoAppListItem from "./TodoAppListItem";
 import {connect} from "react-redux";
 
+
+
 const TodoAppList = ({todos}) => {
     return (
         <div>
