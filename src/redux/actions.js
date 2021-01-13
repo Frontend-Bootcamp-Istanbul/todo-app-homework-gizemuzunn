@@ -1,4 +1,11 @@
-import {ADD_TODO, TOGGLE_TODO} from "./types";
+import {ADD_TODO, TOGGLE_TODO,  DELETE_TODO} from "./types";
+
+export const deleteTodo = (id) => {
+    return {
+        type: DELETE_TODO,
+        payload: id
+    }
+}
 
 export const addTodo = (content) => {
     return {
